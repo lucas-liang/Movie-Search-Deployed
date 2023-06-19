@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import * as dotenv from 'dotenv';
 
+
 dotenv.config();
 const API_KEY = process.env.OMDB_API_KEY;
 // const URL = 'http://localhost:5000';
