@@ -4,7 +4,7 @@ to deploy via Render and Vercel.
 Check it out [HERE](https://movie-search-deployed.vercel.app/).
 
 # Showcase Image
-<img src = "./showcaseImage.png">
+<img src = "./client/showcaseImage.png">
 <br>
 
 # What I learned
