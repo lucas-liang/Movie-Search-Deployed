@@ -4,12 +4,12 @@ import * as dotenv from 'dotenv';
 
 dotenv.config();
 const API_KEY = process.env.OMDB_API_KEY;
-const URL = 'http://localhost:5000';
+// const URL = 'http://localhost:5000';
+const URL = 'https://movie-search-2wfn.onrender.com'
 const app = express();
 app.use(cors());
 app.use(express.json());
 const API_URL = `http://omdbapi.com?apikey=${API_KEY}`;
-// let search = `${API_URL}&s=${title}`;
 
 app.get('/', async (req,res) =>{
     res.send('hello');

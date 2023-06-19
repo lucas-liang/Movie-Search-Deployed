@@ -1,6 +1,7 @@
 
 
-const URL = 'http://localhost:5000';
+// const URL = 'http://localhost:5000';
+const URL = 'https://movie-search-2wfn.onrender.com';
 export async function searchMovies(searchTerm){
     if(searchTerm === ''){
         return [];
