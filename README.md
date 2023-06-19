@@ -1,6 +1,8 @@
 # Movie Search Deployed
 Refactored Movie Search app using React, Express, and Node 
 to deploy via Render and Vercel.
+<br>
+Gets data from the OMDB API.
 Check it out [HERE](https://movie-search-deployed.vercel.app/).
 
 # Showcase Image
